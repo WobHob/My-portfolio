@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+:root{
+    --primary-color:#D1D5DB;
+}
+
+html{
+    background: var(--primary-color);
+}
+
+.Navbar ul{
+    list-style: none;
+    font-family: 'Mukta', sans-serif;
+    /* font-weight: bold; */
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    padding: 0rem 0rem;
+    overflow: hidden;
+    background-color: #333;     
+}
+
+.Nav-left li{
+    float:left;
+    color:white;
+}
+
+.Nav-right li{
+    float:right;
+}
+
+
+.Navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.Navbar li a:hover {
+    background-color: #111;
+  }
+
+.my-img{
+    max-width:40%;
+    max-height:50%;
+    margin-top:6rem;
+    margin-left:10rem;
+}
+
+.about-me{
+    text-align:right;
+    max-width:40%;
+    margin-right:10rem;
+
+}
+.Container
+{
+  text-align: center;
+  margin:4rem 4rem;
+}
+.img-section{
+    float:left;
+    width:35%;
+}
+
+.about-me{
+    padding: 3rem 3rem;
+    float:left;
+    width:55%;
+}
+
+.seprator{
+    width: 5%;
+     border-right: solid 5px #6B7280;
+     height:60vh;
+     float:left;
+}
