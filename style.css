@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:#D1D5DB;
+    --primary-font:'Mukta';
 }
 
 html{
@@ -10,7 +11,7 @@ html{
 
 .Navbar ul{
     list-style: none;
-    font-family: 'Mukta', sans-serif;
+    font-family: var(--primary-font), sans-serif;
     /* font-weight: bold; */
     font-size: 1.4rem;
     margin-bottom: 10px;
@@ -51,15 +52,23 @@ html{
     margin-left:10rem;
 }
 
+.showcase-list{
+    margin:4rem 15rem;
+}
+
 .about-me{
     text-align:right;
     max-width:40%;
     margin-right:10rem;
+    font-family:var(--primary-font);
+    font-size: 2rem;
+    text-align:center;
 
 }
 .Container
 {
   text-align: center;
+  font-family: var(--primary-font), sans-serif;
   margin:4rem 4rem;
 }
 .img-section{
@@ -79,3 +88,108 @@ html{
      height:60vh;
      float:left;
 }
+
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color:  var(--primary-color);
+  margin: 0px;
+}
+.center-container-2 {
+    /* border:1px black solid; */
+    /* margin: 1rem; */
+    text-align: center;
+    padding: 1rem;
+    max-width:40%;
+    margin: 0 auto;
+    background-color:#F3F4F6;
+    color: #6B7280;
+    border-radius: 1rem;
+  }
+
+.center-container-1 {
+  margin: 2rem auto;
+  border-radius:1rem;
+  text-align: center;
+  padding: 1rem;
+  max-width:40%;
+  background-color:#6B7280;
+  color: #F3F4F6;
+}
+
+.primary-link {
+  background-color: #93C5FD;
+  border-radius: 0.5rem;
+  color: white;
+}
+.link {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+.secondary-link {
+  background-color: #818CF8;
+  border-radius: 0.5rem;
+  color:white;
+}
+hr {
+  margin: 2.5rem 0rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.navigation .link {
+  color: white;
+}
+.nav-pills {
+  text-align: right;
+}
+.footer {
+  background-color: #374151;
+  text-align: center;
+  color: black;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+}
+.footer .link {
+  color: white;
+}
+.footer ul {
+  padding-inline-start: 0rem;
+}
+.footer .footer-heading {
+  font-weight: bold;
+  font-size: large;
+}
+
+.blog-heading{
+    text-align: center;
+    margin-top:5rem;
+}
+
+.blog-container{
+    text-align:center;
+    margin:5rem 15rem;
+}
+
+.blog-container p{
+    padding:1rem;
+}
+
+.blog-container li{
+    padding:1rem 3rem;
+}
+
