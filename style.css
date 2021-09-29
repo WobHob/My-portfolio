@@ -187,7 +187,8 @@ hr {
 
 .blog-container p{
     padding:1rem;
-}
+    font-size:1rem;
+  }
 
 .blog-container li{
     padding:1rem 3rem;
